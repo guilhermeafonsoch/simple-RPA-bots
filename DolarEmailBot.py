@@ -15,12 +15,12 @@ dolar_comercial = r.read('//*[@id="comercial"]')
 r.close()
 
 #texto do email
-texto_email = 'A cotação do dolar está aqui para voce' + dolar_comercial + str(pd.Timestamp('today'))
+texto_email = 'A cotação do dolar está aqui para voce ' + dolar_comercial + ' ' + str(pd.Timestamp('today'))
 
 #email remetente, senha, destinatário
-remetente = 'seu_email@email.com'
-senha = '**********'
-destinatário = 'destinatario@email.com'
+remetente = 'remetente@gmail.com'
+senha = '*********'
+destinatário = 'destinatario@gmail.com'
 
 # Setup the MIME
 message = MIMEMultipart()
