@@ -1,4 +1,4 @@
-# Python Pro
+# Python Projects
 ![Badge](https://img.shields.io/static/v1?label=Python&message=Completed&color=blue&style=for-the-badge&logo=python)
 
 
